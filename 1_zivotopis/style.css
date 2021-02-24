@@ -6,3 +6,7 @@ body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(13, 33, 59);
 }
+
+.obsah img{
+  max-width: 300px;
+}
