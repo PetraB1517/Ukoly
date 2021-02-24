@@ -1,12 +1,186 @@
+/* K celému dokumentu */
+
 body {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
-  background-color: rgb(220, 231, 241);
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(13, 33, 59);
+  background-color: #c0d2e4;
+;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #0d213b;
 }
 
-.obsah img{
+.o_mne, .kontakt,.moje_cesty {
+  padding: 30px 17%;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: #1e2b23c0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 {
+  text-shadow: 1px 1px 3px #0d213b;
+  font-size: 47px;
+}
+
+h3 {
+  color:#0d213bcc;
+  text-shadow: 1px 1px 3px #1e2b23;
+  font-size: 32px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+/*HLAVIČKA */
+h1{
+  font-size: 72px;
+  color:#81e0a1bd;
+  text-shadow: 1px 1px 3px #c0d2e4;
+  font-style: italic;
+  text-align:center;
+}
+header{
+  background-image: url(obrazky/pozadi.jpg);
+  margin:0;
+  padding: 100px 30px 170px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.menu{
+  padding: 10px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 25px;
+  background-color: #1e2b23;
+}
+
+.menu a{
+  display: inline-block;
+  color: #81e0a1;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 50px;
+}
+
+.menu a:hover, .menu a:active{
+color: #c0d2e4;
+}
+
+
+.menu ul{
+  margin: 0;
+  padding: 0;
+}
+.menu li{
+  margin: 0;
+  display: inline-block;
+}
+
+
+/* OBSAH*/
+.fotoalbum img {
   max-width: 300px;
+}
+
+
+.profilovka {
+  float:left;
+  margin: 0px 35px 35px 0px;
+  max-width: 43%;
+  overflow:auto;
+}
+
+.segra{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.prouzek {
+
+  background-color:#9ebbd8;
+  padding: 0;
+  padding-bottom: 70px;
+}
+
+.kurak {
+  float:right;
+  margin: 70px 0px 35px 35px;
+  max-width: 43%;
+  overflow:auto;
+}
+.zvirata{
+  text-align: center;
+}
+.zvirata img{
+  border-radius: 50%;
+  margin: 20px;
+  max-width: 150px;
+}
+
+
+/*FOTKY*/
+.fotoalbum{
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+}
+.fotoalbum h3{
+  margin: 20px 0px 10px 0px;
+}
+
+.prouzek_foto {
+
+  background-color:#9ebbd8;
+  padding: 0;
+  padding-bottom: 20px;
+}
+hr{
+  border-top: 4px solid #5a89b8;
+}
+
+/* KONTAKT*/
+
+.kontakt{
+  text-align: left;
+}
+
+.kontakt table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.kontakt td{
+  padding-right: 70px;
+  padding-left: 70px;
+  line-height: 1.8;
+}
+
+/* část footer*/
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  background-color: #1e2b23;
+  color: #81e0a1;
+  padding: 60px;
+  border-top: 1px solid #1e2b23;
+  box-shadow: 0px 0px 15px 5px #1e2b23;
+}
+
+footer p {
+  margin: 0;
+}
+footer a,
+footer a:checked {
+  color: #c0d2e4;
+}
+
+footer a:active,
+footer a:hover {
+  color: #81e0a1;
+}
+
+.red {
+  color: #e03535;
 }
