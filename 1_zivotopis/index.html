@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Můj život</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <!--hlavička s menu-->
@@ -15,15 +16,15 @@
 
 
       <ul>
-        <li>O mně</li>
-        <li>Fotky z cest</li>
-        <li>Kontakt</li>
+        <li><a href="#o_mne">O mně</a></li>
+        <li><a href="#fotky">Fotky z cest</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
       </ul>
 
     </header>
   
   <!-- hlavní část-->
-  <section class="obsah">
+  <section class="obsah" id="o_mne">
       <!-- o mě-->
       <img src="obrazky/profilovka.jpg" alt="moje foto">
       <section class="o_mne">
@@ -60,14 +61,17 @@
 
         <p>Můj život je plný přátel v podobě lidí, ale také nejlepších vícenohých přátel člověka - zvířátek. Kromě <em>Jessi</em>, pejska mojí sestry, naší kočky <em>Amálky</em> a <em>Loly</em>, mopsíka mého kámoše, jsem vloni svoje působení rozšířila o vlastního miláčka, <strong>ježinku Uršulku</strong>. Je to malá samotářka, občas protivná, nerada se mazlí, ale je to zlatíčko.. prostě celá já. </p>
         <!--vložit fotky těch čtyř šulíků a  udělat javascript odkaz - změna barvy ohraničení fotky-->
+        <div class="zvirata">
 
-        <img src="obrazky/jessi.jpg" alt="Pejsek Jessinka">
+          <img src="obrazky/jessi.jpg" alt="Pejsek Jessinka">
         
-        <img src="obrazky/cat.jpg" alt="Kočka Amálka">
+          <img src="obrazky/cat.jpg" alt="Kočka Amálka">
         
-        <img src="obrazky/mops.jpg" alt="Pejsek Lola">
+          <img src="obrazky/mops.jpg" alt="Pejsek Lola">
         
-        <img src="obrazky/ursul.jpg" alt="Ježek Uršulka">
+          <img src="obrazky/ursul.jpg" alt="Ježek Uršulka">
+
+        </div>
 
 
         <h2>O čem sním? </h2>
@@ -76,7 +80,7 @@
       </section>
 
       <!-- Moje cesty-->
-      <section class="Moje_cesty">
+      <section class="Moje_cesty" id="fotky">
         <h1>Fotky z cest</h1>
         <p>Za posledních pár let jsem toho už trochu projezdila. Fotky jsou rozděleny podle zemí.</p>
 
@@ -85,8 +89,12 @@
             <th> 2016</th>
             <td>
               <ul style="list-style-type:none">
-                <li>Norsko</li>
-                <li>Slovinsko</li>
+                <li>
+                  <a href="#norsko">Norsko</a>
+                </li>
+                <li>
+                  <a href="#slovinsko">Slovinsko</a>
+                </li>
               </ul>
             </td>
           </tr>
@@ -94,23 +102,31 @@
             <th>2017</th>
             <td>
               <ul style="list-style-type:none">
-                <li>Itálie</li>
-                <li>Řecko</li>
+                <li>
+                  <a href="#italie">Itálie</a>
+                </li>
+                <li>
+                  <a href="#corfu">Řecko</a>
+                </li>
               </ul>
             </td>
           </tr>
           <tr>
             <th>2019</th>
-            <td>Ukrajina</td>
+            <td>
+              <a href="#ukrajina">Ukrajina</a>
+            </td>
           </tr>
           <tr>
             <th>2020</th>
-            <td>Azerbajdžán</td>
+            <td>
+              <a href="#azer">Azerbajdžán</a>
+            </td>
           </tr>
         </table>
 
         <section class="fotoalbum">
-          <h2>Norsko</h2>
+          <h2 id="norsko">Norsko</h2>
           <img src="obrazky/norsko/1.jpg" alt="norsko">
           <img src="obrazky/norsko/2.jpg" alt="norsko">
           <img src="obrazky/norsko/3.jpg" alt="norsko">
@@ -119,7 +135,8 @@
           <img src="obrazky/norsko/6.jpg" alt="norsko">
           <img src="obrazky/norsko/7.jpg" alt="norsko">
           <img src="obrazky/norsko/8.jpg" alt="norsko">
-          <img src="obrazky/norsko/9.jpg" alt="norsko">
+          <img src="obrazky/norsko/9.jpg" alt="norsko"><br>
+          <a href="#fotky"><i class="fa fa-arrow-up" style="font-size:36px;"></i></a>
 
 
 
@@ -128,27 +145,30 @@
 
 
         <section class="fotoalbum">
-          <h2>Slovinsko</h2>
+          <h2 id="slovinsko">Slovinsko</h2>
           <img src="obrazky/Slovinsko/1.jpg" alt="slovinsko">
           <img src="obrazky/Slovinsko/2.jpg" alt="slovinsko">
           <img src="obrazky/Slovinsko/3.jpg" alt="slovinsko">
           <img src="obrazky/Slovinsko/4.jpg" alt="slovinsko">
           <img src="obrazky/Slovinsko/5.jpg" alt="slovinsko">
-          <img src="obrazky/Slovinsko/6.jpg" alt="slovinsko">
+          <img src="obrazky/Slovinsko/6.jpg" alt="slovinsko"><br>
+          <a href="#fotky"><i class="fa fa-arrow-up" style="font-size:36px;"></i></a>
 
         </section>
 
 
         <section class="fotoalbum">
-          <h2>Itálie</h2>
+          <h2 id="italie">Itálie</h2>
           <img src="obrazky/itoska/1.jpg" alt="Itálie">
           <img src="obrazky/itoska/2.jpg" alt="Itálie">
-          <img src="obrazky/itoska/3.jpg" alt="Itálie">
+          <img src="obrazky/itoska/3.jpg" alt="Itálie"><br>
+          <a href="#fotky"><i class="fa fa-arrow-up" style="font-size:36px;"></i></a>
+
         </section>
 
 
         <section class="fotoalbum">
-          <h2>Řecko</h2>
+          <h2 id="corfu">Řecko</h2>
           <img src="obrazky/corfu/1.jpg" alt="Corfu">
           <img src="obrazky/corfu/2.jpg" alt="Corfu">
           <img src="obrazky/corfu/3.jpg" alt="Corfu">
@@ -157,14 +177,15 @@
           <img src="obrazky/corfu/6.jpg" alt="Corfu">
           <img src="obrazky/corfu/7.jpg" alt="Corfu">
           <img src="obrazky/corfu/8.jpg" alt="Corfu">
-          <img src="obrazky/corfu/9.jpg" alt="Corfu">
+          <img src="obrazky/corfu/9.jpg" alt="Corfu"><br>
+          <a href="#fotky"><i class="fa fa-arrow-up" style="font-size:36px;"></i></a>
 
 
         </section>
 
 
         <section class="fotoalbum">
-          <h2>Ukrajina</h2>
+          <h2 id="ukrajina">Ukrajina</h2>
           <img src="obrazky/UK/1.jpg" alt="ukrajina">
           <img src="obrazky/UK/2.jpg" alt="ukrajina">
           <img src="obrazky/UK/3.jpg" alt="ukrajina">
@@ -176,7 +197,8 @@
           <img src="obrazky/UK/9.jpg" alt="ukrajina">
           <img src="obrazky/UK/10.jpg" alt="ukrajina">
           <img src="obrazky/UK/11.jpg" alt="ukrajina">
-          <img src="obrazky/UK/12.jpg" alt="ukrajina">
+          <img src="obrazky/UK/12.jpg" alt="ukrajina"><br>
+          <a href="#fotky"><i class="fa fa-arrow-up" style="font-size:36px;"></i></a>
 
 
 
@@ -184,13 +206,14 @@
 
 
         <section class="fotoalbum">
-          <h2>Azerbajdžán</h2>
+          <h2 id="azer">Azerbajdžán</h2>
           <img src="obrazky/Azer/1.jpg" alt="azerbajždán">
           <img src="obrazky/Azer/2.jpg" alt="azerbajždán">
           <img src="obrazky/Azer/3.jpg" alt="azerbajždán">
           <img src="obrazky/Azer/4.jpg" alt="azerbajždán">
           <img src="obrazky/Azer/5.jpg" alt="azerbajždán">
-          <img src="obrazky/Azer/6.jpg" alt="azerbajždán">
+          <img src="obrazky/Azer/6.jpg" alt="azerbajždán"><br>
+          <a href="#fotky" alt="šipka zpět"><i class="fa fa-arrow-up" style="font-size:36px;"></i></a>
 
 
 
@@ -202,15 +225,24 @@
 
 
       <!-- Kontakt-->
-      <section class="kontakt">
+      <section class="kontakt" id="kontakt">
         <h1>Kontakt na mě</h1>
         <p>
-          Petra Bartoňová
-          Adresa  Palackého 267, 378 56 Studená
-          Telefon +420721065322
-          Facebook <a href="https://www.facebook.com/petule.bartonova">Můj profil </a>
-          Email <a href="mailto:artep.Bart@seznam.cz">artep.Bart@seznam.cz</a>
-
+          <table>
+            <tr>
+              <td>
+                Petra Bartoňová<br>
+                Palackého 267<br>
+                378 56 Studená <br>
+              </td>
+              <td>
+                <a href="telephone:+420721065322"><i class="fa fa-phone"></i> Telefon</a> <br>
+                <a href="https://www.facebook.com/petule.bartonova" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a> <br>
+                <a href="mailto:artep.Bart@seznam.cz"><i class="fa fa-envelope-open"></i> Email</a> <br>
+              </td>
+            </tr>
+          </table>
+          
         </p>
       </section>
   </section>
