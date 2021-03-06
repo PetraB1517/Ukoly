@@ -122,14 +122,77 @@ color: #c0d2e4;
 
 
 /*FOTKY*/
+
+.moje_cesty{
+  text-align: center;
+}
+.moje_cesty table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+
+.moje_cesty a,
+.moje_cesty a:checked{
+  color: #1e2b23;
+  padding: 5px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.moje_cesty a:active,
+.moje_cesty a:hover{
+  background-color: #c0d2e4;
+  border-radius: 3px;
+}
+
+.moje_cesty ul{
+  padding-left: 0px;
+  margin: 0;
+}
+
+.moje_cesty td{
+  padding-bottom: 15px;
+}
+.moje_cesty th{
+  padding-right: 75px;
+  font-size: 25px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.fotoalbum img{
+  max-width: 30%;
+  border: 2px solid #5a89b8;
+}
+
+.fotoalbum img:hover{
+  border: 4px solid #0d213b;
+  max-width: 35%;
+
+}
+
 .fotoalbum{
   padding: 20px 0px 0px 0px;
   text-align: center;
 }
 .fotoalbum h3{
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
+  text-decoration: underline;
 }
 
+.fotoalbum a,
+.fotoalbum a:checked {
+  color: #1e2b23;
+  display: inline-block;
+  margin: 20px;
+}
+
+.fotoalbum a:active,
+.fotoalbum a:hover {
+  color:#5a89b8;
+}
 .prouzek_foto {
 
   background-color:#9ebbd8;
@@ -138,6 +201,8 @@ color: #c0d2e4;
 }
 hr{
   border-top: 4px solid #5a89b8;
+  margin:0;
+  border-bottom-width: 0;
 }
 
 /* KONTAKT*/
@@ -154,6 +219,18 @@ hr{
   padding-right: 70px;
   padding-left: 70px;
   line-height: 1.8;
+}
+
+.kontakt a,
+.kontakt a:checked {
+  color: #1e2b23;
+  padding: 5px;
+}
+
+.kontakt a:active,
+.kontakt a:hover {
+  background-color: #c0d2e4;
+  border-radius: 3px;
 }
 
 /* část footer*/
